@@ -1,0 +1,114 @@
+/* Global Styles */
+
+:root{
+    --yellow:#f9ca24;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+body{
+    background:whitesmoke;
+    overflow-x: hidden;
+   
+}
+
+
+html {
+    font-size: 62.5%; /* Set base font size to 10px */
+    font-family: Arial, sans-serif; /* Set default font family */
+}
+
+body {
+    font-size: 1.6rem; /* Set font size to 16px */
+    line-height: 1.5; /* Set line height */
+}
+
+/* Header Styles */
+header {
+    background-color: black; /* Set background color */
+    color: #fff; /* Set font color */
+    display: flex; /* Use flexbox to position elements */
+    justify-content: space-between; /* Space out elements */
+    align-items: center; /* Align elements vertically */
+    padding: 2rem; /* Add padding */
+}
+
+h1 {
+    font-size: 3.6rem; /* Set font size */
+}
+
+nav ul {
+    display: flex; /* Use flexbox to position elements */
+}
+
+nav li {
+    margin-left: 2rem; /* Add margin between elements */
+}
+
+nav a {
+    color: whitesmoke; /* Set font color */
+    text-decoration: none; /* Remove underline */
+}
+
+nav a:hover {
+    transform: scale(1.1); /* Add hover effect */
+}
+
+/* Main Content Styles */
+main {
+    margin: 5rem 0; /* Add margin */
+    padding: 0 2rem; /* Add padding */
+}
+
+section {
+    margin-bottom: 5rem; /* Add margin between sections */
+}
+
+h2 {
+    font-size: 2.4rem; /* Set font size */
+    margin-bottom: 2rem; /* Add margin */
+}
+
+p {
+    font-size: 1.6rem; /* Set font size */
+    line-height: 2.4rem; /* Set line height */
+    
+}
+ul, ol {
+    margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+    /* Adjust header styles for smaller screens */
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h1 {
+        margin-bottom: 2rem;
+    }
+
+    nav ul {
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-left: 0;
+        margin-bottom: 1rem;
+    }
+}
